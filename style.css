@@ -1,0 +1,49 @@
+h1{
+color:blue;
+text-align:center;
+animation: color 5s ease-in-out infinite;
+}
+@keyframes color{
+0%{
+  color: blue;
+}
+30%{
+color: purple;
+}
+60%{
+color:whitesmoke;
+}
+100%{
+color:blue;
+}
+}
+img{
+width: 50%;
+border-radius: 33px;
+transition: all 0.1s ease-in-out;
+}
+p{
+width: 670px;
+color:blueviolet;
+}
+
+body{
+    background-image:url("Frame.svg");
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+span{
+padding-left: 20px;
+}
+img:hover{
+transform: scale(1.1);
+}
